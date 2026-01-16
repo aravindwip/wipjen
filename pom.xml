@@ -34,5 +34,6 @@
         </configuration>
       </plugin>
     </plugins>
+           <finalName>myjavaproj</finalName>
   </build>
 </project>
