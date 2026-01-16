@@ -8,7 +8,7 @@ pipeline {
     stage('Checkout Code') {
       steps {
         echo 'Pulling from Github'
-        git branch: 'main', credentialsId: 'mygithubcred', url: 'https://github.com/chntraining/wipjen.git'
+        git branch: 'main', credentialsId: 'mygithubcred', url: 'https://github.com/aravindwip/wipjen.git'
       }
     }
     stage('Test Code') {
